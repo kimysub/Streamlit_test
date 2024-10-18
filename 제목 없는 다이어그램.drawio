@@ -60,8 +60,8 @@
       <root>
         <mxCell id="EPcMoBXZpkj8eAeiIRZd-0" />
         <mxCell id="EPcMoBXZpkj8eAeiIRZd-1" parent="EPcMoBXZpkj8eAeiIRZd-0" />
-        <mxCell id="EPcMoBXZpkj8eAeiIRZd-2" value="노드 이름: init_answer&lt;div&gt;사용 함수 이름: init_answer&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;question을 받아서&amp;nbsp;&lt;/div&gt;&lt;div&gt;question과 generation을 내보냄&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
-          <mxGeometry x="38" y="137" width="230" height="103" as="geometry" />
+        <mxCell id="EPcMoBXZpkj8eAeiIRZd-2" value="노드 이름: init_answer&lt;div&gt;사용 함수 이름: init_answer&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;route_chain에 question을 넣어서&lt;/div&gt;&lt;div&gt;시장 조사와 관련된 질문이라면 rag&lt;/div&gt;&lt;div&gt;잉크젯 데이터와 관련된 질문이라면 excel_data&lt;/div&gt;&lt;div&gt;그래프를 그리라는 질문이면 excel_plot&lt;/div&gt;&lt;div&gt;다 아니라면, plain_answer을 generation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
+          <mxGeometry x="8" y="98" width="279" height="149" as="geometry" />
         </mxCell>
         <mxCell id="EPcMoBXZpkj8eAeiIRZd-3" value="노드 이름: query&lt;div&gt;사용 함수 이름: query&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;데이터와 관련된 질문이면 질문에 알맞은 데이터를 찾는 python 코드를 생성하고 코드와 데이터를 다음으로 넘긴다&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
           <mxGeometry x="310" y="392" width="202" height="93" as="geometry" />
