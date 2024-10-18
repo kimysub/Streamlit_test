@@ -108,13 +108,13 @@
         <mxCell id="EPcMoBXZpkj8eAeiIRZd-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.688;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="EPcMoBXZpkj8eAeiIRZd-1" source="EPcMoBXZpkj8eAeiIRZd-6" target="EPcMoBXZpkj8eAeiIRZd-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwMsCDlpgmF_eIDhvcpo-0" value="노드 이름: rag&lt;div&gt;사용 함수 이름: retrieval&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
+        <mxCell id="kwMsCDlpgmF_eIDhvcpo-0" value="노드 이름: rag&lt;div&gt;사용 함수 이름: retrieval&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;pdf에 있는 시장조사 데이터를 찾아서 data로 반환한다.&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
           <mxGeometry x="-86" y="422" width="202" height="93" as="geometry" />
         </mxCell>
         <mxCell id="kwMsCDlpgmF_eIDhvcpo-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="EPcMoBXZpkj8eAeiIRZd-1" source="kwMsCDlpgmF_eIDhvcpo-1" target="EPcMoBXZpkj8eAeiIRZd-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwMsCDlpgmF_eIDhvcpo-1" value="노드 이름: excel_plot&lt;div&gt;사용 함수 이름: plot_graph&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
+        <mxCell id="kwMsCDlpgmF_eIDhvcpo-1" value="노드 이름: excel_plot&lt;div&gt;사용 함수 이름: plot_graph&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;데이터를 활용하여 그래프를 그리는 코드 생성 및 그래프 생성&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
           <mxGeometry x="331" y="501" width="202" height="93" as="geometry" />
         </mxCell>
         <mxCell id="kwMsCDlpgmF_eIDhvcpo-2" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EPcMoBXZpkj8eAeiIRZd-1" target="kwMsCDlpgmF_eIDhvcpo-0">
@@ -144,7 +144,7 @@
         <mxCell id="kwMsCDlpgmF_eIDhvcpo-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="EPcMoBXZpkj8eAeiIRZd-1" source="kwMsCDlpgmF_eIDhvcpo-8" target="EPcMoBXZpkj8eAeiIRZd-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwMsCDlpgmF_eIDhvcpo-8" value="노드 이름: answer with retrieval&lt;div&gt;사용 함수 이름: answer with retrieval&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;query에서 받은 데이터를 바탕으로 질문에 답변을 생성한다.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
+        <mxCell id="kwMsCDlpgmF_eIDhvcpo-8" value="노드 이름: answer with retrieval&lt;div&gt;사용 함수 이름: answer with retrieval&lt;/div&gt;&lt;div&gt;함수 기능&lt;/div&gt;&lt;div&gt;&amp;nbsp;받은 데이터를 바탕으로 질문에 답변을 생성한다.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EPcMoBXZpkj8eAeiIRZd-1">
           <mxGeometry x="-17" y="591" width="202" height="87" as="geometry" />
         </mxCell>
         <mxCell id="kwMsCDlpgmF_eIDhvcpo-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.436;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="EPcMoBXZpkj8eAeiIRZd-1" source="kwMsCDlpgmF_eIDhvcpo-0" target="kwMsCDlpgmF_eIDhvcpo-8">
